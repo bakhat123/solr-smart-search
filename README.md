@@ -557,11 +557,7 @@ Browsers block direct requests from a web page to Solr due to CORS restrictions.
 
 On the first search request, the proxy calls `/schema/fields` to get every field in your Solr core. It caches this list and uses it to decide which facet fields to request and which fields to highlight — so the app works on *any* Solr core, not just one with a fixed schema.
 
----
-
-## 👤 Author
-
-**Muhammad Anas** — Lab 13, Open Ended Lab  
+--
 Built with React, Vite, Express, and Apache Solr.
 
 ---
